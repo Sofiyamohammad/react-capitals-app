@@ -1,0 +1,38 @@
+.app-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.capitals-container {
+  height: 50vh;
+  width: 50%;
+  background-color: #f8fafc;
+  border-width: 0px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  text-align: center;
+}
+.question-container {
+  display: flex;
+  justify-content: space-around;
+}
+.country {
+  font-family: 'Roboto';
+  color: #000000;
+  font-weight: 600;
+  font-size: 24px;
+}
+.question {
+  font-family: 'Roboto';
+  color: #323f4b;
+}
